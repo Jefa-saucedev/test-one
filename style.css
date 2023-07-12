@@ -1,0 +1,64 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff4081;
+ }
+
+ li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-inline-end: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+.hero {
+    background-image: url('crocs2.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .hero-title {
+    font-size: 64px;
+    margin-bottom: 40px;
+  }
+
+  .hero-description {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #ff4081;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #d81b60;
+  }
